@@ -93,36 +93,31 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+A seguir, apresentamos uma tabela que reúne e identifica os requisitos funcionais do projeto, bem como indica a prioridade em que esses devem ser executados. 
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Existirá uma tela para cadastro  | ALTA | 
+|RF-002| Existirá uma tela de login   | ALTA  |
+|RF-003| Existirá uma tela para cadastrar os dados para o sorteio, seja numérico ou nominal.    | ALTA  |
+|RF-004| Existirá uma tela para sortear os ganhadores.    | ALTA |
+|RF-005| Os usuários a administradores do sorteio podem verificar o histórico de sorteios realizados e participados   | MÉDIA |
+|RF-006| Os usuários podem compartilhar o resultado em suas redes sociais   | BAIXA |
+|RF-007| Os usuários podem utilizar sem cadastro   | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-003| A plataforma deverá ser publicada em um ambiente acessível publicamente na Internet (Replit, GitHub Pages, Netlify).  |  ALTA | 
+|RNF-004| O aplicativo deverá ser thinclient.  |  ALTA | 
+|RNF-005| O aplicativo deverá ter uma fonte padrão para todas as escritas, com alterações apenas no tamanho.  |  ALTA | 
+|RNF-006| O aplicativo deve ser compatível com os principais dispositivos móveis do mercado.  |  ALTA | 
 
 ## Restrições
 
@@ -131,39 +126,27 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+Segue abaixo o diagrama de caso de uso do nosso projeto. Ele é usado para descrever graficamente um subconjunto do modelo para simplificar a comunicação.  
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![image](https://user-images.githubusercontent.com/83511889/188511269-f09eaf5b-7fa4-4039-8c0f-b821882c5886.png)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+
+
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+Abaixo segue a nossa matriz de rastreabilidade de requisitos. Essa matriz é fundamental para execução do nosso projeto, uma vez que caso seja feita uma alteração, sabe-se quais requisitos serão afetados com tal mudança. 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+ 
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+Segue tabela detalhada da Matriz de Rastreabilidade 
 
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+![image](https://user-images.githubusercontent.com/83511889/188511311-8bb0e1b6-5740-4097-b8a3-c65bd5fec6df.png)
+![image](https://user-images.githubusercontent.com/83511889/188511323-796315f5-14bb-46ee-8348-cd1945a43880.png)
 
 
 # Gerenciamento de Projeto
@@ -187,7 +170,14 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 ![Simple Project Timeline](img/02-project-timeline.png)
 
 ## Gestão de Orçamento
+O gerenciamento de custos do projeto, é exemplificado na tabela a seguir e inclui os processos envolvidos em estimativas, orçamento e controle dos custos, de modo que o projeto consiga ser finalizando dentro do orçamento aprovado. 
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+![image](https://user-images.githubusercontent.com/83511889/188511423-ca7cb454-ff39-4b61-9ec1-2b7537968764.png)
 
-![Orçamento](img/02-orcamento.png)
+
+
+Uma outra ferramenta para gerenciamento de projeto é o gráfico de Gantt, que proporciona uma melhor visualização e gerenciamento das tarefas ao longo do tempo, onde é mostrado na imagem abaixo: 
+
+ 
+ ![image](https://user-images.githubusercontent.com/83511889/188511466-e19ea719-c514-4169-9096-59dd68dfa2cc.png)
+
