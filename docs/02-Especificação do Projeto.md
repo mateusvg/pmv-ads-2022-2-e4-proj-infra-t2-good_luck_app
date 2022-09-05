@@ -155,20 +155,37 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A organização acontece da seguinte forma: 
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+● Scrum Master: Natália Gatti  
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+● Product Owner: Mateus Vitorino e Alfredo Latorre 
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+● Equipe de Desenvolvimento: Denison Amaral e Mateus Vitorino 
 
-## Gerenciamento de Equipe
+● Equipe de Design: Alfredo Latorre  
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+ 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub e o Trello estruturado com as seguintes listas: 
 
+ 
+
+Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas à lista. 	 
+
+Para fazer: representa o Sprint Backlog - Sprint atual que estamos trabalhando.  
+
+Fazendo: quando uma tarefa é iniciada, ela é movida para esta lista. 	 
+
+Teste: checagem de Qualidade (CQ). Quando as tarefas são concluídas, elas são movidas para o CQ. No final da semana, essa lista passa por revisão para garantir que tudo está correto. 	 
+
+Feito: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário. Não há mais edições ou revisões a serem feitas. A tarefa está agendada e pronta para a ação. 
+
+Bloqueado: quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está impedindo a realização da tarefa. 
+
+ Segue abaixo uma imagem do nosso quadro no trello, que está disponibilizado na URL a seguir: https://trello.com/b/nfIKyVMf/processo-de-produ%C3%A7%C3%A3o-mobile  
+ 
+ 
 ## Gestão de Orçamento
 O gerenciamento de custos do projeto, é exemplificado na tabela a seguir e inclui os processos envolvidos em estimativas, orçamento e controle dos custos, de modo que o projeto consiga ser finalizando dentro do orçamento aprovado. 
 
