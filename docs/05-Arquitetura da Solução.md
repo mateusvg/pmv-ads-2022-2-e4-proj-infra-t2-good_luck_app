@@ -6,7 +6,7 @@ Nesta seção, apresentaremos os detalhes técnicos da solução criada pela equ
 ## Diagrama de Componentes
 
 Os componentes que fazem parte da solução são apresentados na Figura a seguir: 
-![image](https://user-images.githubusercontent.com/83511889/188658090-c8b73966-b0c1-4e87-932b-caf4970fcecc.png)
+![image](/docs/img/Desenho-de-arquitetura.jpg)
 
 >Fonte: adaptado pelos autores. 
 
